@@ -411,7 +411,7 @@
 
         function simulateLeak() {
             if (activeIdx === -1 || isAlerting) return;
-            addLog(`WASPADAL Penurunan tekanan drastis di ${apars[activeIdx].name}!`);
+            addLog(`WASPADA Penurunan tekanan drastis di ${apars[activeIdx].name}!`);
             let itv = setInterval(() => {
                 apars[activeIdx].pressure -= 15;
                 updateUI();
